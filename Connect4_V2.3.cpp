@@ -160,12 +160,6 @@ int main(int argv,char **argc) {
             //Print updated board
             prntBrd ( board, ROWS, COLS );
 
-            //Calcuation to find out what row piece is in 
-                //landRow = 'A' + (ROWS - 1) - piesCol;
-
-            //Calculation to find what row piece is in for player 2/computer
-                //p2LndRw = 'A' + (ROWS - 1) - p2Pies;
-
             //Mapping Input to Output
             out << plyrNm << " placed X at column " << colChce << endl;
             cout << plyrNm << " placed X at column " << colChce << endl;
